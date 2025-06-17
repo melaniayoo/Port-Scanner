@@ -20,7 +20,7 @@ Clone this repository and run:
 python3 main.py
 ```
 Your result should look like:
-
+![Result](result.png)
 
 ## Credits:
 
