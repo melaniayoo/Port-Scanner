@@ -2,6 +2,13 @@
 
 A Python-based TCP port scanner that scans a given IP address or hostname over a specified range of ports. It identifies open ports and optionally outputs a verbose report showing service names.
 
+## 🧠 How It Works
+
+1. Resolves the input (IP or domain) using socket.gethostbyname()
+2. Iterates through each port using socket.connect_ex() to check for open connections
+3. Optionally performs reverse DNS to include the hostname
+4. Displays service names using common_ports.py
+
 ## Project Structure: 
 
 ```
